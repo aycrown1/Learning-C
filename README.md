@@ -1,4 +1,4 @@
-#Learn C language 
+# Learn C language 
 
 ## Why Learn C ?
 C is a high-level, general-purpose programming language that was originally developed by Dennis Ritchie at Bell Labs in the 1970s. It is a procedural programming language, which means that it follows a step-by-step approach to solve problems.
@@ -13,7 +13,7 @@ C programming is awesome for several reasons, including:
 * It has influenced many other programming languages, making it a valuable language to learn for software development.
 
 ## Entry point.
-an entry point is the location within a program where execution begins. In C programs, the entry point is typically the "main" function.
+An entry point is the location within a program where execution begins. In C programs, the entry point is typically the "main" function.
 
 "Main" is a function in the C programming language that serves as the entry point for the program. It is where program execution begins and typically contains the code that performs the program's main task. The "main" function must be present in all C programs.
 
