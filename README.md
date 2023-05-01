@@ -1,6 +1,12 @@
 # Learn C language 
 
-## Why Learn C ?
+## Table of contents
+
+- [Why Learn C ?](#why-learn-c?)
+- [C Entry point.](#c-entry-point)
+- [C Compilation.](#c-compilation)
+
+### Why Learn C ?
 C is a high-level, general-purpose programming language that was originally developed by Dennis Ritchie at Bell Labs in the 1970s. It is a procedural programming language, which means that it follows a step-by-step approach to solve problems.
 
 C has been widely used for developing operating systems, device drivers, software applications, and embedded systems. It is also popular among computer science students because of its simplicity, powerful features, and fast execution speed.
@@ -12,12 +18,12 @@ C programming is awesome for several reasons, including:
 * It is portable, meaning that programs written in C can run on many different platforms and operating systems
 * It has influenced many other programming languages, making it a valuable language to learn for software development.
 
-## C Entry point.
+### C Entry point.
 An entry point is the location within a program where execution begins. In C programs, the entry point is typically the "main" function.
 
 "Main" is a function in the C programming language that serves as the entry point for the program. It is where program execution begins and typically contains the code that performs the program's main task. The "main" function must be present in all C programs.
 
-## C Compilation.
+### C Compilation.
 
 To compile a C program using gcc, you can use the following command:
 
@@ -31,7 +37,7 @@ When you type "gcc main.c" into a command prompt, the GCC (GNU Compiler Collecti
 
 By default, when compiling a C program with gcc, the output program name will be "a.out". However, you can specify a different output file name using the "-o" flag, as shown in the example above.
 
-### GCC Compilation flags.
+#### GCC Compilation flags.
 
 ```shell
 
@@ -55,7 +61,7 @@ Using compilation flags such as `-Wall`, `-Werror`, `-Wextra`, `-pedantic`, and 
 `-std` specifies the C language standard to use for compilation. By using a specific standard, developers can ensure that their code adheres to a well-defined set of rules and conventions, which can improve portability and compatibility with other code.
 
 
-## C Coding Style.
+### C Coding Style.
 
 C language specification does not mandate any particular coding style or formatting. However, there are several popular coding styles that are commonly used by C programmers to improve code readability and maintainability.
 
@@ -63,7 +69,7 @@ One widely-used C coding style is the "K&R style," named after Brian Kernighan a
 
 Another popular C coding style is the "GNU style," used by many open source projects and supported by the GNU coding standards. The GNU style places a greater emphasis on consistency and readability, using a more structured and verbose approach to formatting.
 
-### Betty style checker.
+#### Betty style checker.
 
 The most wide used by C student and learners is "Betty style checker,".
 
@@ -79,7 +85,7 @@ The Betty coding style guide emphasizes readability, simplicity, and consistency
 
 To use [Betty](https://github.com/holbertonschool/Betty), you can download and install the tool from its Github repository, and then run it on your C code files to check for compliance with the style guide. Betty will provide feedback and suggestions for how to improve the code's style and formatting. Using a tool like Betty can help improve the readability and maintainability of C code, making it easier to understand and work with for both the original developer and other programmers who may need to modify or maintain the code in the future.
 
-## C syntax.
+### C syntax.
 
 C syntax refers to the set of rules and conventions that dictate how C code is structured and written. These rules define how to write statements, expressions, declarations, functions, control structures, and other language constructs in C.
 In C, the basic syntax includes elements such as:
@@ -100,7 +106,7 @@ In C, the basic syntax includes elements such as:
 
 * C code can use preprocessor directives, which are commands that are processed by the preprocessor before the code is compiled. Preprocessor directives are indicated with a # symbol and include commands to include header files, define constants, and perform other tasks.
 
-## C Data Type.
+### C Data Type.
 
 In C, data types are used to specify the type of data that a variable can hold before it been called or used. The syntax for declaring a variable with a specific data type in C is:
 
@@ -132,7 +138,7 @@ This declares a new data type called `person`, which has two fields: `name`, whi
 
 Using the proper syntax for data types in C is important for ensuring that variables are properly initialized and used, and can help prevent errors and bugs in code.
 
-## C Declearation, Defination and Function call
+### C Declearation, Defination and Function call
 
 A variable declaration tells the compiler the name and type of a variable, without providing its value or memory location. Similarly, a function declaration tells the compiler the name, return type, and parameter types of a function, without providing its implementation.
 
@@ -165,7 +171,7 @@ A  function call is a statement that invokes a function and passes it the requir
 int result = mul(2, 3);
 ```
 The function call executes the code within the function definition and returns a value to the caller.
-## C Return value.
+### C Return value.
 
 `return` is a keyword in many programming languages, including C, that is used to exit a function and return a value to the caller. In C, the `return` statement can be used in a function to return a value of a specified type.
 
@@ -188,7 +194,7 @@ int add(int a, int b) {
 }
 ```
 
-### Value for Return.
+#### Value for Return.
 
 The value for a return statement in C is an expression that is evaluated and returned to the caller of the function. The specific value that is returned depends on the function's implementation and the type of value that is expected by the caller.
 
