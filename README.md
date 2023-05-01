@@ -8,7 +8,7 @@
   - [GCC Compilation flags.](#gcc-compilation-flags)
 - [C Coding Style.](#c-coding-style)
   - [Betty style checker.](#betty-style-checker)
--[C syntax.](#c-syntax)
+- [C syntax.](#c-syntax)
 - [C Data Type.](#c-data-type)
 - [C Declearation, Defination and Function call](#C-Declearation-Defination-and-function-call)
 - [C Return value.](#C-Return-value)
