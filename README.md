@@ -5,7 +5,14 @@
 - [Why Learn C ?](#why-learn-c?)
 - [C Entry point.](#c-entry-point)
 - [C Compilation.](#c-compilation)
-
+* [GCC Compilation flags.](#gcc-compilation-flags)
+- [C Coding Style.](#c-coding-style)
+* [Betty style checker.](#betty-style-checker)
+-[C syntax.](#c-syntax)
+- [C Data Type.](#c-data-type)
+- [C Declearation, Defination and Function call](#C-Declearation-Defination-and-function-call)
+- [C Return value.](#C-Return-value)
+* [Value for Return.](#Value-for-Return)
 ### Why Learn C ?
 C is a high-level, general-purpose programming language that was originally developed by Dennis Ritchie at Bell Labs in the 1970s. It is a procedural programming language, which means that it follows a step-by-step approach to solve problems.
 
